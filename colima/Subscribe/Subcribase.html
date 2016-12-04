@@ -1,0 +1,112 @@
+<!DOCTYPE html> 
+<html>
+ <head>
+ <style type="text/css">
+ input {
+padding: 6px 12px 6px 12px;
+border: 1px solid #665544;
+color: #ffffff;}
+input.Search: hover {
+      background-color:#665544;}
+input.Search: active {
+background-color: chocolate;]
+input.text { color:#cccccc;}
+input.text:focus{color: #665544;}
+ 
+ </style>
+
+
+
+  </head>
+ <body>
+  <title>Suscribase a Engineering X!</title>
+  <h2>Suscribase!</h2>
+  <p>Suscribase a nuestra comunidad de profesionales en el área</p>
+  <!esta pagina se enfoca en los formularios>
+<!chapter 7 Forms>
+ <form action="http://www.example.com/login.php">
+   <p>Username:
+     <input type="text" name="username" size="15"
+       maxlength="30" />
+   </p>
+   <p>Password:<input type="password" name="password" size="15"
+       maxlength="30" />
+    </p>
+ </form> <!this is a text input field>
+
+<hr />
+
+<!Search queries>
+<form action="http://www.example.org/search.php">
+  <p>Buscar</p>
+   <input type="search" name="Search" placeholder="buscar" />
+   <input type="submit" value="Buscar"/>
+ </form>
+
+<!Search___________________________________>
+ 
+
+    <form action="http://www.example.com/comments.php">
+     <p>¿Que piensa hacer con la membresia?</p>
+      <textarea name="comments" cols="20" rows="4"> Enter your comments...</textarea>
+    </form> <!esta es el area de comentarios>
+
+<hr />
+
+  <form action="http://www.example.com/profile.php">
+    <p> Porfavor especifique su profesión:
+      <br />
+      <input type="radio" name="Profesión" value="Ingeniero"
+              checked="checked" /> Ingeniero
+      <input type="radio" name="Profesión" value=Tecnico /> Tecnico
+       <input type="radio" name="Profesión" value=Doctor /> Doctor
+    </p>
+  </form>
+
+<hr />
+<fieldset>  
+ <legend>Especialidad</legend>
+ <form action="http://www.example.com/profile.php">
+    <p> Porfavor especifique su area de interes:
+      <br />
+      <input type="checkbox" name="interes" value="Rayos X"
+              checked="checked" /> Rayos X
+      <input type="checkbox" name="interes" value=Ultrasonido /> Ultrasonido
+       <input type="checkbox" name="interes" value=ESU /> ESU
+    </p>
+  </form>
+</fieldset> <!Ver elementos field set y legend>
+
+     <!file inputs____________________>
+    <form action="http://www.example.com/upload.php"
+      method="post">
+     <p>Suba su tesis o investigación:</p>
+       <input type="file" name="thesis" /><br />
+      <input type="submit" value="Upload" />
+    </form>
+ 
+ <hr />
+   <!Submit form__________________>
+ 
+     <form action="http://www.example.com/upload.php"
+      method="post">
+     <p>Subscribase a nuestra lista de noticias!!:</p>
+       <input type="email" name="email" />
+      <input type="submit" value="subscribe" name="subscribe" />
+    </form>
+<hr />
+  <label>Age: <input type="text" name="age" /></label>
+  <br/>
+  Gender:
+  <input id="female" type="radio" name="gender"
+          value="f">
+  <label for="female">Female</label> <!Preguntas??????>
+
+
+
+ 
+
+
+    <p><a href="../../firsttest.html">Home<a/></p>
+  </body>
+  </html>
